@@ -1,0 +1,60 @@
+@charset "utf-8";
+body {
+	background: url(../image/pattern.png);
+	font-family:"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.show{
+	background:url(../image/show_window.png) no-repeat left;
+	cursor:pointer;
+	width:16px;
+	height:16px;
+}
+#cerceve{
+	margin:150px auto 0 auto;
+	width:400px;
+	height:300px;
+}
+.header{
+	background:url(../image/header_bg.png) no-repeat top;
+	height:63px;
+	border-top-left-radius: 1px;
+	border-top-right-radius: 1px;
+	line-height:60px;
+	padding-left:20px;
+	text-shadow:1px 1px rgba(53,16,56,0.5);
+	color:#fff;
+	font-weight:bold;
+}
+.formbody{
+	width:400px;
+	height:240px;
+	background:url(../image/formbody.png) no-repeat top;
+}
+form .text{
+	width:358px;
+	height:52px;
+	margin:20px 0 0 22px;
+	outline:none;
+	font-weight:bold;
+	padding-left:20px;
+	border:0;
+	color:#a9a9bc;
+}
+form .submit{
+	width:100px;
+	height:40px;
+	margin:20px 20px 0 22px;
+	background:url(../image/login.png) no-repeat;
+	font-weight:bold;
+	text-shadow:1px 1px rgba(53,16,56,0.5);
+	color:#fff;
+	cursor:pointer;
+	border:0;
+}
+form a{
+	text-decoration:none;
+	color:#a9a9bc;
+	font-size:14px;
+	font-weight:bold;
+	text-shadow:1px 1px rgba(255,255,255,0.75);
+}
